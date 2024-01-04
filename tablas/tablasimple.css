@@ -1,0 +1,18 @@
+th, td {
+    border: black 1px solid;
+    padding: 0.2em;
+    text-align: center;
+}
+table {
+    margin: 10px;
+    border-collapse: collapse;
+}
+thead {
+    padding: 6px;
+}
+.caja {
+    width: 150px;
+    margin-top: 20px;
+    margin-left: 25px;
+    border: solid 1px black;
+}

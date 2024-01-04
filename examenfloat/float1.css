@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+div {
+    text-align: center;
+    line-height: 200px;
+}
+.caja1,
+.caja2,
+.caja3 {
+    border: 5px solid white;
+    background-color: #8feb44;
+    height: 200px;
+    width: 33vw;
+    float: right;
+    color: white;
+}
+.caja4 {
+    float: left;
+    height: 200px;
+    width: 33%;
+    background-color: deeppink;
+    border-radius: 40px;
+    color: white;
+}
+.invisible {
+    outline: 1px solid red;
+    width: 66%;
+    float: left;
+    color: white;
+    font-size: 40px;
+}
+.caja41 {
+    height: 200px;
+    width: 33vw;
+    margin: auto;
+    background-color: yellow;
+    border-radius: 0 0 140px 140px;
+
+}
+.caja5 {
+    text-align: center;
+
+}

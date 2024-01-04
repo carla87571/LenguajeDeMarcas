@@ -1,0 +1,15 @@
+body {
+    font-family: Arial, sans-serif;
+}
+h1, h2 {
+    color: #333;
+}
+a {
+    color: #1a0dab;
+}
+div {
+    text-align: center;
+}
+.section-content {
+    margin-bottom: 20px;
+}
