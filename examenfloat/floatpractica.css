@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+div {
+    text-align: center;
+    line-height: 200px; 
+    
+}
+.caja1,
+.caja2,
+.caja3 {
+    border: 5px solid white;
+    background-color: #8feb44;
+    height: 200px;
+    width: 33%;
+    float: right;
+}
+.caja4 {
+    float: left;
+    height: 200px;
+    width: 33vw;
+    background-color: rgb(153, 1, 95);
+    border-radius: 40px;
+    border: 8px solid white;
+    
+    
+
+}
+.caja_invisible {
+    outline: 1px solid red;
+    width: 66%;
+    float: left;
+}
+.caja41 {
+    height: 200px;
+    width: 33vw;
+    margin: auto;
+    margin-bottom: 30px;
+    background-color: yellow ;
+    border-radius: 0 0 140px 140px;
+    box-shadow: 0 6px 0 6px rgb(62, 66, 70);
+}
+.caja5 {
+    color: white;
+    text-align: center;
+    width: 99%;
+    word-spacing: -8px;
+    font-size: 2em;
+    font-variant: small-caps;
+    background-color: black;
+    clear: both;
+}
+.caja5 span {
+    letter-spacing: 8px;
+    font-size: 20px;
+    vertical-align: sub;
+}
+.subcaja {
+    width: 60%;
+    float: left;
+
+}
+.caja51 {
+    background-color: cornflowerblue;
+    width: 33%;
+    height: 200px;
+    float: right;
+    text-decoration: line-through;
+    border: 4px groove black ;
+}
+.caja52 {
+    background-color: rgb(29, 173, 230);
+    width: 33%;
+    height: 200px;
+    float: right;
+    font-size: 2em;
+    text-shadow: 2px 0 violet;
+    border: 4px dotted yellow;
+}
+.caja53 {
+    width: 33%;
+    height: 200px;
+    float: right;
+    background-color: #A54020;
+    border: 4px double blue;
+
+}
+.caja6, .caja7, .caja8 {
+    background-color: #8feb44;
+    height: 200px;
+    width: 33%;
+    display: inline-block;
+    border: 5px solid white;
+  
+}
+.caja6 {
+    clear: both;
+}
+
+
+.caja7 {
+    border-radius: 50%;
+    box-shadow: 0 0 6px green;
+    
+  }

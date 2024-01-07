@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@200&display=swap');
+/*font-family: 'Work Sans', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+/*font-family: 'Pacifico', cursive;*/
+@import url('https://fonts.googleapis.com/css2? family= Rowdies:wght@300 & display=swap');
+/*font-family: 'Rowdies', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+
+/* CSS General*/
+
+:root {
+    --blanco: #FFFFFF;
+    --negro: #000000;
+    --rosa: #FD2D73;
+    --gris: gray;
+    --morado: #662DFD;
+    --azul: #370CF2;
+    --lila: #AF17E6;
+  
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body {
+    width: 100%;
+    font-family: 'Work Sans', sans-serif;
+}
+header {
+    width: 100%;
+    color: var(--blanco);
+    background-color: var(--rosa);
+    height: 100px;
+    border-radius: 10px 10px 0 0;
+    border: 2px solid var(--gris);
+    
+   
+}
+header img {
+    width: 150px;
+    height: 70px;
+    
+}
+header ul {
+    float: right;
+    margin-top: 20px;
+
+}
+header ul  li {
+    border-right: 1px solid var(--blanco);
+    display: inline;
+    padding-right: 3px;
+    text-align: center;
+}
+li a i {
+    color: var(--blanco);
+    margin-right: 3px;
+    border-right: none;
+}
+nav {
+    width: 100%;
+    height: 70px;
+    background-color: var(--morado); 
+    border: 1px solid var(--gris);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+nav ul li {
+    border-right: 1px solid var(--blanco);
+    display: inline;
+    color: var(--blanco) ;
+    padding-right: 5px;
+}
+
+li:hover {
+    text-decoration: underline;
+}
+main {
+    width: 100%;
+    height: 700px;
+    text-align: center;
+    
+
+}
+aside {
+    width: 78%;
+    height: 700px;
+    border-right: 3px solid var(--rosa);
+    float: left;
+    
+    
+}
+section {
+    width: 22%;
+    height: 700px;
+    float: right;
+
+    
+}
+aside div img {
+    height: 250px;
+    width: 500px;
+}
+aside div ul {
+    height: 250px;
+    width: 500px;
+}
+
+.datos {
+    border: 2px solid var(--lila);
+}
+.datos li {
+
+    list-style-type: none;
+    line-height: 30px; 
+    margin-left: 20px;
+}
+.datos li h3 {
+    margin:12px 0 12px 0;
+}
+.datos {
+    margin-right: 30px;
+}
+.float ul {
+    float: right;
+}
+.pacifico {
+    font-family: 'Pacifico', cursive;
+    color: var(--rosa);
+}
+.rowdies {
+    font-family: 'Rowdies', sans-serif;
+}
+.satisfy {
+    font-family: 'Satisfy', cursive;
+    color: var(--morado);
+}
+form {
+    text-align: left;
+}
+/*
+input {
+    border: none;
+    background: none;
+    border-top: 1px solid #000;
+    width: 100%;
+    height: 1px;
+}
+*/
+
+hr {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+footer {
+    text-align: center;
+    width: 100%;
+    height: 70px;
+    background-color: var(--rosa);
+    color: var(--blanco);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 2px solid var(--gris);
+    border-bottom: 2px solid var(--gris);
+}
+
+
+
+
+
+
+
+
+
+
+
+
